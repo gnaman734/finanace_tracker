@@ -1,0 +1,47 @@
+{
+  "name": "fj-be-r2-personal-finance-tracker",
+  "version": "1.0.0",
+  "description": "Production-grade Personal Finance Tracker with Neon PostgreSQL",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "build": "echo \"No build step for this project\"",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "NODE_ENV=test node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "axios": "^1.9.0",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.6",
+    "currency.js": "^2.0.4",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.1.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.53.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.15.0",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3",
+    "supertest": "^7.0.0",
+    "uuid": "^10.0.0",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4"
+  }
+}

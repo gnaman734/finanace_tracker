@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #eff7ff 0%, #f9fcff 100%);
+  color: #1f2937;
+}
+
+.container {
+  max-width: 680px;
+  margin: 12vh auto;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+button {
+  background: #0f6d8f;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
